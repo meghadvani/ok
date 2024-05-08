@@ -1,0 +1,132 @@
+
+.w-1 {width: 8.33%;}
+.w-2 {width: 16.66%;}
+.w-3 {width: 25%;}
+.col-lg-4 {width: 33.33%;
+    padding: 0 var(--gutter-width);
+}
+
+
+.col-lg-5 {width: 41.66%;}
+.col-lg-6 {width: 50%;}
+.col-lg-7 {width: 58.33%;}
+.col-lg-8 {width: 66.66%;}
+.col-lg-9 {width: 75%;}
+.col-lg-10 {width: 83.33%;}
+.col-lg-11 {width: 91.66%;}
+.col-lg-12 {width: 100%;}
+
+
+.navbar{
+    background-color: #f7f7f7;
+}
+.navbar-nav .nav-item a{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 13px;
+}
+.main-banner{
+    background-color: #f7f7f7;
+}
+.card{
+    border: none;
+}
+.card-body a i{
+    font-size: 18px;
+}
+.btn1{
+    background-color:#fee715;
+    font-size: 14px;
+    border: 2px solid white;
+    transition: all 0.1s ease-in;
+    
+}
+.btn-3{
+    background-color:white;
+    font-size: 14px;
+    border: 2px solid black;
+    transition: all 0.1s ease-in; 
+}
+.btn2{
+    background-color: black;
+    color: #f7f7f7;    
+}
+.btn1:hover{
+    color: white;
+    background-color: black;
+}
+.btn3:hover{
+    color: white;
+    background-color: black;
+}
+
+
+.item-img img{
+    transition: all 0.3s ease;
+}
+
+
+.item-img img:hover{
+    opacity: 0.4; 
+}
+.services .row i{
+    font-size: 36px;
+    margin: 20px;
+}
+.services .row h1{
+    font-size: 18px;
+    font-family: 'Poppins';
+}
+.services .row p{
+    font-size: 14px;
+    font-family: 'Poppins';
+}
+
+.gallery {
+	display: grid;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	grid-gap: 1rem;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	grid-auto-rows: 300px;
+	grid-auto-flow: dense;
+}
+
+.gallery img {
+	transition: all .3s ease-in-out;
+	
+	/* Filters */
+	filter: grayscale(100%);
+/* 	filter: sepia(100%); */
+/* 	filter: invert(25%); */
+}
+
+.gallery img:hover {
+	filter: none;
+}
+
+.experience .pp{
+    border: 5px solid goldenrod;
+    border-radius: 50%;
+    padding: 20px;
+    font-family: 'Poppins';
+    transition: all 0.1s ease;
+}
+
+.experience .experience-content{
+    transition: all 0.1s ease-in;
+}
+.experience .experience-content:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding: 10px;
+    background-size: 100% 100%;
+background-position: 0px 0px,0px 0px,0px 0px,0px 0px,0px 0px;
+background-image: repeating-linear-gradient(315deg, #00FFFF2E 92%, #073AFF00 100%),repeating-radial-gradient(75% 75% at 238% 218%, #00FFFF12 30%, #073AFF14 39%),radial-gradient(99% 99% at 109% 2%, #00C9FFFF 0%, #073AFF00 100%),radial-gradient(99% 99% at 21% 78%, #7B00FFFF 0%, #073AFF00 100%),radial-gradient(160% 154% at 711px -303px, black 0%, black 100%);
+    color: white;
+    margin: 10px;
+    font-family: 'Poppins';
+}
+.experience .pp:hover{
+    border: 4px solid white;
+}

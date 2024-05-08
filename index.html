@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Megh - One Page Portfolio</title>
+    <!-- css -->
+    <link rel="stylesheet" href="asset/css/style.css">
+    <link rel="stylesheet" href="asset/css/OTHER.CSS">
+    <!-- AOS Scroll -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="asset/css/bootstrap.min.css">
+    <!-- Fonts -->
+    <link rel="stylesheet" href="asset/Fonts1/stylesheet.css">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    
+    <header>
+    <nav class="navbar navbar-expand-lg fixed-top" style="background-color: #000000;">
+        <div class="container">
+            <a href="" class="navbar-brand"><span
+                    style="color: #fee715; font-family: 'Poppins'; font-weight: bold; font-size: 28px;">MEGH.</span><i
+                    class="fa-solid fa-radiation ms-3" style="color: #fee715;"></i></a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#yo"><span
+                    class="navbar-toggler-icon bg-success"></span></button>
+            <div class="collapse navbar-collapse" id="yo">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item me-3"><a href="" class="nav-link"
+                            style="font-weight: bold;  color: #fee715">HOME</a></li>
+                    <li class="nav-item me-3"><a href="" class="nav-link" style="color: #fee715;">ABOUT</a></li>
+                    <li class="nav-item me-3"><a href="" class="nav-link" style="color: #fee715;">EXPERIENCE</a></li>
+                    <li class="nav-item me-3"><a href="" class="nav-link" style="color: #fee715;">PORTFOLIO</a></li>
+                    <li class="nav-item me-3"><a href="" class="nav-link" style="color: #fee715;">SERVICES</a></li>
+                    <li class="nav-item me-3"><a href="" class="nav-link" style="color: #fee715;">BLOG</a></li>
+                    <li class="nav-item me-3"><a href="" class="nav-link" style="color: #fee715;">CONTACT</a></li>
+                </ul>
+            </div>
+            <button class="btn1 p-2 border-0 ms-3" data-bs-toggle="offcanvas" data-bs-target="#offc"><i class="fa-solid fa-bars-staggered" style="color: white;"></i></button>
+            <button class="btn1 border-0 p-2 ms-1" style="font-family: 'Poppins';" data-bs-toggle="modal" data-bs-target="#mod">Read this carefully</button>
+        </div>
+    </nav>
+    </header>
+
+
+
+
+    <!-- Offcanvas -->
+  <div class="offcanvas offcanvas-start p-3" style="background-color: #000000;" id="offc" data-bs-backdrop="false">
+    <div class="offcanvas-header">
+      <h2 class="offcanvas-title" style="color: #fee715;">About Me</h2>
+      <i class="fa-solid fa-circle-xmark btn-close" data-bs-dismiss="offcanvas" style="color: #FFD43B;"></i>
+    </div>
+    <div class="offcanvas-body" style="color: #fee715;">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis nam dolor quae, eaque commodi unde neque
+        labore, ratione suscipit quod excepturi tempora. Dolorum quasi possimus dolor iusto nihil dolores perspiciatis,
+        beatae odio facere dicta nisi. Vitae consequuntur eligendi cumque porro laborum earum at adipisci cupiditate,
+        totam accusantium sequi, unde quis!</p>
+      <button class="btn btn-primary mt-3" style="background: rgb(2,0,36);
+      background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);">Accept </button>
+      <button class="btn btn-danger ms-3 mt-3" style="background: rgb(131,58,180);
+      background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);" data-bs-toggle="offcanvas" data-bs-target="#offc">Close</button>
+    </div>
+  </div>
+
+
+
+  <!-- Modal -->
+  <div class="modal" id="mod" data-bs-backdrop="static" style="background-color: #000000;">
+    <div class="modal-dialog">
+      <div class="modal-content" style="background-color: #000000;">
+        <div class="modal-header">
+          <h2 style="color: #fee715;">Warning</h2>
+          <i class="fa-solid fa-circle-xmark btn-close" data-bs-dismiss="modal" style="color: #FFD43B;"></i>
+        </div>
+        <div class="modal-body" style="color: #fee715;">
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis harum atque numquam inventore nulla
+            doloremque et excepturi minima at porro dolore earum animi, aliquid enim praesentium facere vel optio,
+            consectetur omnis alias consequuntur vero quo. Eos eum ad ullam at alias velit dolorem impedit
+            necessitatibus, unde voluptatem placeat pariatur recusandae.</p>
+          <button class="btn btn-primary" style="background: rgb(2,0,36);
+          background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);">Ok, I'm aware of it</button>
+          <button class="btn btn-danger ms-2" style="background: rgb(131,58,180);
+          background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);" data-bs-toggle="modal" data-bs-target="mod">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+
+
+
+
+    <!-- Main Banner -->
+    <section class="main-banner" style="background-color: #000000;">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mt-5 p-5" data-aos="zoom-in-right">
+                    <div class="card-header">
+                        <h5 style="color: #fee715; font-weight: 500;">Hello, I am</h5>
+                        <h1 class="mb-20px card-title" style="font-weight: 700; font-size: 48px; color: #fee715;">MEGH
+                            ADVANI</h1>
+                    </div>
+                    <div class="card-body">
+                        <hr style="width: 50%">
+                        <p style="font-size: 16px; color: #939393;">Professional Gymnast / Frontend Developer</p>
+                        <hr style="width: 50%">
+                        <a href="" class=""><i class="fa-brands fa-facebook-f" style="color: #acabb0;"></i></a>
+                        <a href="" class="ms-3"><i class="fa-brands fa-twitter" style="color: #93969a;"></i></a>
+                        <a href="" class="ms-3"><i class="fa-brands fa-google-plus-g" style="color: #a6a8ab;"></i></a>
+                        <a href="" class="ms-3"><i class="fa-solid fa-basketball" style="color: #aeafb2;"></i></a>
+                        <a href="" class="ms-3"><i class="fa-brands fa-youtube" style="color: #b1b2b4;"></i></a>
+                        <a href="" class="ms-3"><i class="fa-brands fa-linkedin-in" style="color: #b7b7b8;"></i></a>
+                    </div>
+                    <button type="button" class="btn1 p-2 border rounded-pill border-3 border-black mt-4"
+                        style="width: 200px;"><span style="font-weight:500;">View My Portfolio</span><i
+                            class="fa-solid fa-arrow-right ms-3" style="color: #fee715;"></i></button>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card-body">
+                        <img src="asset/images/WhatsApp Image 2024-05-07 at 18.52.23_1b10b06d-Photoroom.png-Photoroom.png"
+                            alt="" class="my-5 p-5" data-aos="zoom-in" style="width: 85%;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- About Section -->
+    <section class="about p-5" style="background-color: #000000;">
+        <div class="container">
+            <div class="text-center my-5">
+                <h1 class="border-2 border-bottom p-4 d-inline"
+                    style="font-size: 34px; font-weight: 700; color: #fee715;">About Me</h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 mt-5" data-aos="fade-right"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine">
+                    <div class="card-body">
+                        <p class="" style="font-size: 15px; color: #6f6f6f; font-weight: 400; font-family: 'Poppins';">
+                            Tempora incidunt ut labore et dolore exercitation ullamco nisi ut aliquip ex ea commodo
+                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                            fugiat nulla pariatur fugiat nulla pariatur dolore exercitation ullamco laboris nisi ut
+                            aliquip ex ea commodo consequa.</p>
+                        <button type="button" class="btn1 p-2 border rounded-pill border-3 border-black mt-4"
+                            style="width: 200px;"><i class="fa-solid fa-circle-down me-2"
+                                style="color: #202122;"></i><span style="font-weight:500;">Download My
+                                CV</span></button>
+                    </div>
+                </div>
+                <div class="col-lg-6 mt-4" data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">
+                    <div class="card-body">
+                        <span style="font-size: 14px; font-family: 'Poppins'; color: #fee715; font-weight: 400;">HTML
+                            </span>
+                        <div class="text-end"><span class=""
+                                style="font-size: 10px; font-family: 'Poppins'; font-weight: 400; color: #fee715;">95%</span>
+                        </div>
+                        <div class="progress" role="progressbar" style="height: 5px">
+                            <div class="progress-bar" style="width: 95%; background-color:#fee715;"></div>
+                        </div>
+                        <span style="font-size: 14px; font-family: 'Poppins'; color: #fee715; font-weight: 400;">CSS
+                            </span>
+                        <div class="text-end"><span class=""
+                                style="font-size: 10px; font-family: 'Poppins'; font-weight: 400; color: #fee715;">85%</span>
+                        </div>
+                        <div class="progress" role="progressbar" style="height: 5px">
+                            <div class="progress-bar" style="width: 85%; background-color:#fee715;"></div>
+                        </div>
+                        <span
+                            style="font-size: 14px; font-family: 'Poppins'; color: #fee715; font-weight: 400;">BOOTSTRAP</span>
+                        <div class="text-end"><span class=""
+                                style="font-size: 10px; font-family: 'Poppins'; font-weight: 400; color: #fee715;">90%</span>
+                        </div>
+                        <div class="progress" role="progressbar" style="height: 5px">
+                            <div class="progress-bar" style="width: 90%; background-color:#fee715;"></div>
+                        </div>
+                        <span
+                            style="font-size: 14px; font-family: 'Poppins'; color: #fee715; font-weight: 400;">JQUERY</span>
+                        <div class="text-end"><span class=""
+                                style="font-size: 10px; font-family: 'Poppins'; font-weight: 400; color: #fee715;">80%</span>
+                        </div>
+                        <div class="progress" role="progressbar" style="height: 5px">
+                            <div class="progress-bar" style="width: 80%; background-color:#fee715;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- My Experience -->
+    <section class="experience p-5" style="background-color: #000000;">
+        <div class="container">
+            <div class="text-center my-5">
+                <h1 class="border-2 border-bottom p-4 d-inline"
+                    style="font-size: 34px; font-weight: 700; color: #fee715;">My Experience</h1>
+            </div>
+            <div class="experience-content border-start border-3 border-dark position-relative " data-aos="fade-up"
+     data-aos-anchor-placement="bottom-center">
+                <i class="fa-solid fa-circle position-absolute" style="color: #fee715; top: 35px; left:-9px;"></i>
+                <div class="box ms-5">
+                    <h5 style="font-size: 19px; font-weight: 700; color: #fee715;">HTML</h5>
+                    <p style="width: 50%; font-size: 14px; color: white;">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur ex sit amet massa
+                        scelerisque scelerisque. Aliquam erat volutpat. Aenean interdum finibus efficitur. Praesent
+                        dapibus dolor felis, eu ultrices elit molestie.
+                    </p>
+                </div>
+            </div>
+            <div class="m-5">
+                <span class="pp" style="color: #fee715;">2 Years 2013</span>
+            </div>
+            <div class="experience-content border-start border-3 border-dark position-relative " data-aos="fade-up"
+     data-aos-anchor-placement="bottom-center">
+                <i class="fa-solid fa-circle position-absolute" style="color: #fee715; top: 35px; left:-9px;"></i>
+                <div class="box ms-5">
+                    <h5 style="font-size: 19px; font-weight: 700; color: #fee715;">CSS</h5>
+                    <p style="width: 50%; font-size: 14px; color: white">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur ex sit amet massa
+                        scelerisque scelerisque. Aliquam erat volutpat. Aenean interdum finibus efficitur. Praesent
+                        dapibus dolor felis, eu ultrices elit molestie.
+                    </p>
+                </div>
+            </div>
+            <div class="m-5">
+                <span class="pp" style="color: #fee715;">1 Year 2015</span>
+            </div>
+            <div class="experience-content border-start border-3 border-dark position-relative " data-aos="fade-up"
+     data-aos-anchor-placement="bottom-center">
+                <i class="fa-solid fa-circle position-absolute" style="color: #fee715; top: 35px; left:-9px;"></i>
+                <div class="box ms-5">
+                    <h5 style="font-size: 19px; font-weight: 700; color: #fee715;">BOOTSTRAP</h5>
+                    <p style="width: 50%; font-size: 14px; color: white ">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur ex sit amet massa
+                        scelerisque scelerisque. Aliquam erat volutpat. Aenean interdum finibus efficitur. Praesent
+                        dapibus dolor felis, eu ultrices elit molestie.
+                    </p>
+                </div>
+            </div>
+            <div class="m-5">
+                <span class="pp" style="color: #fee715;">2 Years 2016</span>
+            </div>
+            <div class="experience-content border-start border-3 border-dark position-relative " data-aos="fade-up"
+     data-aos-anchor-placement="bottom-center">
+                <i class="fa-solid fa-circle position-absolute" style="color: #fee715; top: 35px; left:-9px;"></i>
+                <div class="box ms-5">
+                    <h5 style="font-size: 19px; font-weight: 700; color: #fee715;">JQUERY</h5>
+                    <p style="width: 50%; font-size: 14px; color: white">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur ex sit amet massa
+                        scelerisque scelerisque. Aliquam erat volutpat. Aenean interdum finibus efficitur. Praesent
+                        dapibus dolor felis, eu ultrices elit molestie.
+                    </p>
+                </div>
+            </div>
+            <div class="m-5">
+                <span class="pp" style="color: #fee715;">2 Years 2018</span>
+            </div>
+    </section>
+
+
+    <!-- Projects Section -->
+    <section class="portfolio p-5" style="background-color: #000000;">
+        <div class="container">
+            <div class="text-center my-5">
+                <h1 class="border-2 border-bottom p-4 d-inline"
+                    style="font-size: 34px; font-weight: 700; color: #fee715; font-style: italic;">My Projects
+                </h1>
+            </div>
+            <div class="text-center">
+                <button type="button" class="btn2 p-2 border rounded-pill border-1 mt-4 active"
+                    style="width: 90px;"><span style="font-weight:500; color: #fee715;">All</span></button>
+                <button type="button" class="btn3 p-2 border rounded-pill border-1 mt-4 ms-2" style="width: 90px;"><span
+                        style="font-weight:500; color: #fee715;">Develop</span></button>
+                <button type="button" class="btn3 p-2 border rounded-pill border-1 mt-4 ms-2" style="width: 90px;"><span
+                        style="font-weight:500; color: #fee715;">Design</span></button>
+                <button type="button" class="btn3 p-2 border rounded-pill border-1 mt-4 ms-2" style="width: 90px;"><span
+                        style="font-weight:500; color: #fee715;">Graphics</span></button>
+            </div>
+
+            <div class="row mt-5" data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000">
+                <div class="col-lg-4">
+                    <div class="item-img position-relative">
+                        <a href="asset/Fonts7/index.html"><img src="asset/images/OIP.jpg" alt="" style="width: 70%;"></a>
+                        <h3  class="fw-bold ms-5 mt-3" style="font-family: 'Poppins'; color: #fee715; font-size: 20px;">Click to see</h3>
+                    </div>
+                </div>
+                <div class="col-lg-4 te">
+                    <div class="item-img">
+                        <a href="asset/Fonts1/index.html"><img src="asset/images/OIP (1).jpg" alt="" style="width: 80%;"></a>
+                        <h3  class="fw-bold ms-5 mt-3" style="font-family: 'Poppins'; color: #fee715; font-size: 20px;">Click to see</h3>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="item-img">
+                        <a href="asset/Project/index.html"><img src="asset/images/OIP (2).jpg" alt="" style="width: 80%;"></a>
+                        <h3  class="fw-bold ms-5 mt-3" style="font-family: 'Poppins'; color: #fee715; font-size: 20px;">Click to see</h3>
+                    </div>
+                </div>
+                <h2 class="fw-bold ms-5 mt-3 text-center" style="font-family: 'Poppins'; color: #fee715; font-size: 20px;">Art and Visuals, Potraits</h2>
+                <div class="col-lg-4 mt-5">
+                    <div class="item-img">
+                        <img src="asset/images/4.jpg" alt="" style="width: 80%;">
+                        <h4 class="fw-bold ms-5 mt-3" style="font-family: 'Poppins'; color: #fee715; font-size: 20px;">French-Fries Potrait</h4>
+                    </div>
+                </div>
+                <div class="col-lg-4 te mt-5">
+                    <div class="item-img">
+                        <img src="asset/images/5.jpg" alt="" style="width: 80%;">
+                        <h4 class="fw-bold ms-5 mt-3" style="font-family: 'Poppins'; color: #fee715; font-size: 20px;">Flowers Pot</h4>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-5">
+                    <div class="item-img">
+                        <img src="asset/images/6.jpg" alt="" style="width: 80%;">
+                        <h4 class="fw-bold ms-5 mt-3" style="font-family: 'Poppins'; color: #fee715; font-size: 20px;">Laptop Potrait</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Services Section -->
+    <section class="services p-5" style="background-color: #000000 ;">
+        <div class="container">
+            <div class="text-center">
+                <h1 class="border-2 border-bottom p-4 d-inline"
+                    style="font-size: 34px; font-weight: 700; color: #fee715;">Our Duty Services
+                </h1>
+            </div>
+            <div class="row mt-5 p-5 text-center" data-aos="zoom-out-left"> 
+                <div class="col-lg-4 border-bottom border-1 p-5"
+                    style="box-shadow: rgba(209, 223, 5, 0.914) 15px 15px 15px;" data-aos="zoom-in">
+                    <i class="fa-solid fa-pen-ruler" style="color: #fee715;"></i>
+                    <h1 style="color: #fee715;">Web Development</h1>
+                    <p style="color: #fee715;">This creative template design provide ideal and variety of design
+                        services and solutions for
+                        website.
+                    </p>
+                </div>
+                <div class="col-lg-4 border-start border-bottom border-end border-1 p-5"
+                    style="box-shadow: rgba(209, 223, 5, 0.914) 15px 15px 15px;" data-aos="zoom-in-up">
+                    <i class="fa-solid fa-gears" style="color: #fee715;"></i>
+                    <h1 style="color: #fee715;">Web Design</h1>
+                    <p style="color: #fee715;">This creative template design provide ideal and variety of design
+                        services and solutions for
+                        website.
+                    </p>
+                </div>
+                <div class="col-lg-4 border-bottom border-1 p-5"
+                    style="box-shadow: rgba(209, 223, 5, 0.914) 15px 15px 15px;">
+                    <i class="fa-solid fa-mobile-screen" style="color: #fee715;"></i>
+                    <h1 style="color: #fee715;">Social Media</h1>
+                    <p style="color: #fee715;">This creative template design provide ideal and variety of design
+                        services and solutions for
+                        website.
+                    </p>
+                </div>
+                <div class="col-lg-4 border-end border-1 p-4"
+                    style="box-shadow: rgba(209, 223, 5, 0.914) 15px 15px 15px;">
+                    <i class="fa-solid fa-layer-group" style="color: #fee715;"></i>
+                    <h1 style="color: #fee715;">Photography</h1>
+                    <p style="color: #fee715;">This creative template design provide ideal and variety of design
+                        services and solutions for
+                        website.
+                    </p>
+                </div>
+                <div class="col-lg-4 border-end border-1 p-4"
+                    style="box-shadow: rgba(209, 223, 5, 0.914) 10px 10px 15px;">
+                    <i class="fa-solid fa-chart-line" style="color: #fee715;"></i>
+                    <h1 style="color: #fee715;">Graphic Design</h1>
+                    <p style="color: #fee715;">This creative template design provide ideal and variety of design
+                        services and solutions for
+                        website.
+                    </p>
+                </div>
+                <div class="col-lg-4 p-4" style="box-shadow: rgba(209, 223, 5, 0.914) 15px 15px 15px;">
+                    <i class="fa-brands fa-react" style="color: #fee715;"></i>
+                    <h1 style="color: #fee715;">Content Design</h1>
+                    <p style="color: #fee715;">This creative template design provide ideal and variety of design
+                        services and solutions for
+                        website.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Testimonials Section -->
+    <div style="background-color: #000000;">
+    <secion class="testimonials">
+        <div class="container">
+            <div class="text-center pt-4">
+                <h1 class="border-2 border-bottom p-4 d-inline"
+                    style="font-size: 34px; font-weight: 700; color: #fee715;">Testimonials
+                </h1>
+            </div>
+            <div class="carousel slide" data-bs-ride="carousel" id="ff">
+                <div class="carousel-inner">
+                    <div class="carousel-control-prev" data-bs-target="#ff" data-bs-slide="prev"><span
+                            class="carousel-control-prev-icon bg-dark"></span></div>
+                    <div class="carousel-control-next" data-bs-target="#ff" data-bs-slide="next"><span
+                            class="carousel-control-next-icon bg-dark"></span></div>
+                    <div class="carousel-item text-center active">
+                        <i class="fa-solid fa-quote-left mt-5 p-3"
+                            style="font-size: 29px; line-height: normal; color: #fee715;"></i>
+                        <p class="mx-auto" style="width: 75%; line-height: 28px; font-size: 16px; color: #fee715;">
+                            Doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et
+                            quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem.</p>
+                        <h6 style="font-size: 16px; font-weight: 600; line-height: normal; color: #fee715;">Jama Karle
+                        </h6>
+                        <h6 style="font-size: 12px; color: #fee715;">CEO</h6>
+                    </div>
+                    <div class="carousel-item text-center">
+                        <i class="fa-solid fa-quote-left mt-5 p-3"
+                            style="font-size: 29px; line-height: normal; color: #fee715;"></i>
+                        <p class="mx-auto" style="width: 75%; line-height: 28px; font-size: 16px; color: #fee715;">Duis
+                            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                            pariatur. Excepteur sint occaecat cupidatat non proident,deserunt mollit anim id est
+                            laborum.</p>
+                        <h6 style="font-size: 16px; font-weight: 600; line-height: normal; color: #fee715;">Ivonne
+                            Drennan</h6>
+                        <h6 style="font-size: 12px; color: #fee715;">Manager</h6>
+                    </div>
+                    <div class="carousel-item text-center">
+                        <i class="fa-solid fa-quote-left mt-5 p-3"
+                            style="font-size: 29px; line-height: normal; color: #fee715;"></i>
+                        <p class="mx-auto" style="width: 75%; line-height: 28px; font-size: 16px; color: #fee715;">
+                            Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris commodo
+                            consequat.</p>
+                        <h6 style="font-size: 16px; font-weight: 600; line-height: normal; color: #fee715;">Bettye Mauck
+                        </h6>
+                        <h6 style="font-size: 12px; color: #fee715;">Designer</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </secion>
+    </div>
+
+
+    <!-- Blog Section -->
+    <section class="blog" style="background-color: #000000;">
+        <div class="container">
+            <div class="text-center p-5">
+                <h1 class="border-2 border-bottom p-4 d-inline"
+                    style="font-size: 34px; font-weight: 700; color: #fee715; font-style: italic;">Blogs
+                </h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="card" style="box-shadow: rgba(209, 223, 5, 0.914) 10px 10px 15px;" data-aos="zoom-in">
+                        <ul class="gallery">
+                            <li>
+                                <a href="#"><img src="asset/images/1 (1).jpg" alt="Gallery item" style="width:100%"></a>
+                            </li>
+                        </ul>
+                        <div class="card-body p-4" style="background-color: #000000;">
+                            <a href="https://ashton.websitelayout.net/blog.html"
+                                style="color: #fee715; text-decoration:none;">Designing | </a>
+                            <span style="color: #fee715;">02 May 2018</span><br>
+                            <a href="https://ashton.websitelayout.net/single-post.html"
+                                style="color: #fee715; font-family: 'Poppins'; text-decoration:unerline;">Designing work
+                                with us</a>
+                            <p class="mt-3" style="color: #fee715;">Dolorem ipsum quia dolor consectetur, amet adipisci
+                                velit, sed quia non eius numquam modi tempora.</p>
+                            <a href="https://ashton.websitelayout.net/single-post.html"><button type="button"
+                                    class="btn3 p-2 border rounded-pill border-1 ms-2" style="width: 120px;"><span
+                                        style="font-weight:500; color: #fee715;">Read More</span></button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card mb-2" style="box-shadow: rgba(209, 223, 5, 0.914) 10px 10px 15px;" data-aos="zoom-in-up">
+                        <ul class="gallery">
+                            <li>
+                                <a href="#"><img src="asset/images/2 (1).jpg" alt="Gallery item" style="width:100%"></a>
+                            </li>
+                        </ul>
+                        <div class="card-body p-4" style="background-color: #000000;">
+                            <a href="https://ashton.websitelayout.net/blog.html"
+                                style="color: #fee715; text-decoration:none;">Meeting | </a>
+                            <span style="color: #fee715;">04 March 2018</span><br>
+                            <a href="https://ashton.websitelayout.net/single-post.html"
+                                style="color: #fee715; font-family: 'Poppins'; text-decoration:underline;">Meeting with
+                                our clients</a>
+                            <p class="mt-3" style="color: #fee715;">Numquam dolorem ipsum quia dolor sit amet,
+                                consectetur, adipisci velit, sed quia non numquam eius modi.</p>
+                            <a href="https://ashton.websitelayout.net/single-post.html"><button type="button"
+                                    class="btn3 p-2 border rounded-pill border-1 ms-2" style="width: 120px;"><span
+                                        style="font-weight:500; color: #fee715;">Read More</span></button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card mb-2" style="box-shadow: rgba(209, 223, 5, 0.914) 10px 10px 15px;" data-aos="zoom-in-down">
+                        <ul class="gallery">
+                            <li>
+                                <a href="#"><img src="asset/images/3 (1).jpg" alt="Gallery item" style="width:100%"></a>
+                            </li>
+                        </ul>
+                        <div class="card-body p-4" style="background-color: #000000;">
+                            <a href="https://ashton.websitelayout.net/blog.html"
+                                style="color: #fee715; text-decoration:none;">Positive | </a>
+                            <span style="color: #fee715;">11 April 2018</span><br>
+                            <a href="https://ashton.websitelayout.net/single-post.html"
+                                style="color: #fee715; font-family: 'Poppins'; text-decoration:none; text-decoration: underline;">Always
+                                think be positive</a>
+                            <p class="mt-3" style="color: #fee715;">Consectetur dolorem ipsum quia dolor sit amet,
+                                adipisci velit, sed quia non numquam eius modi tempora.</p>
+                            <a href="https://ashton.websitelayout.net/single-post.html"><button type="button"
+                                    class="btn3 p-2 border rounded-pill border-1 ms-2" style="width: 120px;"><span
+                                        style="font-weight:500; color: #fee715;">Read More</span></button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact Section -->
+    <section class="contact p-5" style="background-color: #000000;">
+        <div class="container">
+            <div class="text-center my-5">
+                <h1 class="border-2 border-bottom p-4 d-inline"
+                    style="font-size: 34px; font-weight: 700; color: #fee715;">Contact <span
+                        style="text-decoration: underline; text-decoration-color: #fee715;">Us</span></h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <h6 style="color: #fee715;">Full Name</h6>
+                    <div class="form-floating">
+                        <input type="text" class="form-control" id="" placeholder="" value="">
+                        <label for="">Your Name</label>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <h6 style="color: #fee715;">Telephone</h6>
+                    <div class="form-floating">
+                        <input type="Telephone" class="form-control" id="" placeholder="" value="">
+                        <label for="floatingInputGrid">Telephone Number</label>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <h6 style="color: #fee715;">Email</h6>
+                    <div class="form-floating">
+                        <input type="email" class="form-control" id="" placeholder="" value="">
+                        <label for="">Email Address</label>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <h6 style="color: #fee715;">Feedback</h6>
+                    <textarea class="form-control" placeholder="Leave a feedback to improve" id="floatingTextarea2"
+                        style="height: 100px"></textarea>
+                </div>
+                <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+                    <label class="form-check-label" for="flexSwitchCheckChecked" style="color: #fee715;">Satisfied with
+                        my Portfolio</label>
+                </div>
+            </div>
+            <div class="text-center">
+                <button type="button"
+                    class="btn1 p-2 border rounded-pill border-3 border-black mt-4 justify-content-center"
+                    style="width: 200px;"><i class="fa-solid fa-computer-mouse me-3" style="color: grey;"></i><span
+                        style="font-weight:500;">Submit</span></button>
+
+                <h1 class="mt-3 fw-bold" style="font-family: 'Poppins'; font-style: italic; color:#fee715;">Thank-You
+                </h1>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer Section -->
+    <footer class="bg-dark">
+        <div class="container">
+            <div class="text-center p-5">
+                <h1 class="border-2 border-bottom p-4 d-inline"
+                    style="font-size: 34px; font-weight: 700; color: #fee715; font-style: italic;">Connect with Me
+                </h1>
+            </div>
+            <div class="row p-5" data-aos="fade-up-right">
+                <div class="col-lg-4">
+                    <div class="cn text-center border-end">
+                    <i class="fa-solid fa-mobile-screen-button" style="color: #fee715;"></i>
+                    <h5 class="fw-bold" style="color: #fee715;">Phone</h5>
+                    <p style="color: #fee715;">(+44) 123 456 789</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="cn text-center border-end">
+                        <i class="fa-solid fa-map-location" style="color: #fee715;"></i>
+                        <h5 class="fw-bold" style="color: #fee715;">Address</h5>
+                        <p style="color: #fee715;">3389 Eglinton Avenue, London</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="cn text-center border-end">
+                        <i class="fa-regular fa-envelope" style="color: #fee715;"></i>
+                        <h5 class="fw-bold" style="color: #fee715;">Email</h5>
+                        <p style="color: #fee715;">Aston.business69@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Javascript -->
+    <script src="asset/JS/bootstrap.bundle.min.js"></script>
+    <!-- AOS Scroll -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+</body>
+
+</html>
